@@ -1,17 +1,35 @@
 import React from 'react';
+import projects from '../content/projects.json';
 
 const Projects = () => {
-    return (
-        <div>
-            <div className='label'>Projects</div>
-            <div className='left'>
+    const renderedProjects = Object.keys(projects).map(key => {
+        //for odd projects
+        // check if key has coming-soon tag
+        return (
+            <div
+                key={projects[key].title}
+                className={key % 2 === 0 ? 'right' : 'left'}
+            >
                 <a href='/'>
                     <h4>
-                        <div className='coming-soon'>Game: Mastermind</div>
+                        <div
+                            className={
+                                projects[key].comingSoon ? 'coming-soon' : ''
+                            }
+                        >
+                            {projects[key].title}
+                        </div>
                     </h4>
-                    <p>A simple recreation of an old game using React.</p>
+                    <p>{projects[key].description}</p>
                 </a>
             </div>
+        );
+    });
+
+    return (
+        <div className='column'>
+            <div className='label'>Projects</div>
+            <div>{renderedProjects}</div>
         </div>
     );
 };

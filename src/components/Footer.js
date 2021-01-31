@@ -14,17 +14,17 @@ const Footer = () => {
                     </h3>
                     <div className='social'>
                         <ul>
-                            <li class='icons'>
+                            <li className='icons'>
                                 <a href='https://www.linkedin.com/in/abhinay-reddy/'>
                                     <FontAwesomeIcon icon={faLinkedin} />
                                 </a>
                             </li>
-                            <li class='icons'>
+                            <li className='icons'>
                                 <a href='https://github.com/xprmnts'>
                                     <FontAwesomeIcon icon={faGithub} />
                                 </a>
                             </li>
-                            <li class='icons'>
+                            <li className='icons'>
                                 <a href='mailto:abhinay@outlook.com'>
                                     <FontAwesomeIcon icon={faEnvelope} />
                                 </a>
