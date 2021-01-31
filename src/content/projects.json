@@ -6,17 +6,17 @@
     },
     "2":{
         "title" : "Mastermind: GUI",
-        "description" : "Mastermind with an all new GUI using React",
+        "description" : "Mastermind with an all new GUI using React.",
         "comingSoon" : "true"
     },
     "3":{
         "title" : "Mastermind: Evolved",
-        "description" : "Create an account, store your game history and compare your skills against our leaderboard. Game built using Node + React + Redux + PostgreSQL.",
+        "description" : "Create an account, store your game history and compare your skills against our leaderboard. Game built using Node + React + GraphQL.",
         "comingSoon" : "true"
     },
     "4":{
         "title" : "Mastermind: Mobile",
-        "description" : "Take Mastermind where ever you go on your Android or iPhone! Game built using React Native.",
+        "description" : "Take Mastermind where ever you go on your Android or iPhone! Game builds on Evolved with React Native.",
         "comingSoon" : "true"
     }
 }

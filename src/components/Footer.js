@@ -9,8 +9,8 @@ const Footer = () => {
             <div className='container'>
                 <div className='small'>
                     <h3>
-                        In my spare time I read books, play board games, travel
-                        and work on side projects.
+                        In my spare time I read books, practice meditation, play
+                        board games, travel and work on side projects.
                     </h3>
                     <div className='social'>
                         <ul>
