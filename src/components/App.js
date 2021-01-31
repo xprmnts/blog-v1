@@ -3,6 +3,7 @@ import Header from './Header';
 import Summary from './Summary';
 import Resume from './Resume';
 import Footer from './Footer';
+import Projects from './Projects';
 import '../css/main.css';
 
 const App = () => {
@@ -15,6 +16,11 @@ const App = () => {
                         <Summary />
                         <Resume />
                     </div>
+                </div>
+            </div>
+            <div className='container'>
+                <div className='small'>
+                    <Projects />
                 </div>
             </div>
             <Footer />

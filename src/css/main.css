@@ -55,6 +55,16 @@ p {
     line-height: 1.75em;
 }
 
+a {
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    color: #000;
+    text-decoration: none;
+}
+a:hover {
+    color: #134db6;
+}
+
 .label {
     color: #831515;
     font-size: 0.75em;
@@ -69,6 +79,17 @@ a:hover,
 h3 a:hover,
 h4 a:hover {
     color: #831515;
+}
+
+.coming-soon::after {
+    content: 'COMING SOON';
+    text-transform: uppercase;
+    font-size: 0.4em;
+    font-family: 'Avenir-Medium';
+    letter-spacing: 0.2em;
+    margin-left: 10px;
+    vertical-align: middle;
+    color: rgba(34, 36, 39, 0.5);
 }
 
 ul {
