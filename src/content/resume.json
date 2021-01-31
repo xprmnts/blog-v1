@@ -1,0 +1,37 @@
+{
+    "1": {
+        "date" :"Soon (TM)",
+        "role" :"Software Engineer",
+        "company" : "TBD - I'm Available"
+    },
+    "2": {
+        "date" :"January 2020",
+        "role" :"Product Manager",
+        "company" : "Bolt"
+    },
+    "3" : {
+        "date" :"November 2018 to January 2020",
+        "role" :"Product Manager",
+        "company" : "Walmart Labs"
+    },
+    "4" : {
+        "date" :"May 2018 to November 2018",
+        "role" :"Product Manager",
+        "company" : "TribalScale"
+    },
+    "5" : {
+        "date" :"May 2015 to August 2017",
+        "role" :"Product & Delivery Manager",
+        "company" : "Lean"
+    },
+    "6" : {
+        "date" :"April 2013 to January 2014",
+        "role" :"CEO",
+        "company" : "Neverfrost"
+    },
+    "7" : {
+        "date" :"2008 to 2013",
+        "role" :"BASc. Nanotechnology Engineering",
+        "company" : "University of Waterloo"
+    }
+}

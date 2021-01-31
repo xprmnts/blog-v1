@@ -1,0 +1,29 @@
+.resume {
+    margin-top: 20px;
+}
+
+.resume ul {
+    list-style-type: none;
+    margin: 20px 0 64px 0;
+    padding: 0;
+}
+
+.resume li {
+    margin: 0 0 20px 0;
+}
+.resume .role {
+    font-size: 0.9em;
+    font-family: 'Avenir-Heavy';
+    margin: 4px 0;
+}
+.resume .date {
+    font-size: 0.9em;
+    color: rgba(34, 36, 39, 0.5);
+}
+.resume .company {
+    font-size: 0.9em;
+}
+.resume .skill {
+    font-size: 0.9em;
+    font-family: 'Avenir-Heavy';
+}
