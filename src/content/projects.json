@@ -16,7 +16,7 @@
     },
     "4":{
         "title" : "Mastermind: Mobile",
-        "description" : "Take Mastermind where ever you go on your Android or iPhone! Game builds on Evolved with React Native.",
+        "description" : "Take Mastermind where ever you go on your Android or iPhone! Game builds on Evolved with React Native, Typescript.",
         "comingSoon" : "true"
     }
 }

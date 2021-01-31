@@ -1,5 +1,5 @@
 {
-    "1" : "JavaScript, Python",
-    "2" : "React, Redux, Node, Flask",
+    "1" : "Javascript, Typescript, Python",
+    "2" : "React, Redux, Node, Flask, GraphQL",
     "3" : "MongoDB, PostgreSQL"
 }
