@@ -2,12 +2,6 @@
     margin-top: 20px;
 }
 
-.resume ul {
-    list-style-type: none;
-    margin: 20px 0 64px 0;
-    padding: 0;
-}
-
 .resume li {
     margin: 0 0 20px 0;
 }
@@ -26,4 +20,14 @@
 .resume .skill {
     font-size: 0.9em;
     font-family: 'Avenir-Heavy';
+}
+
+.seagulls {
+    width: 266px;
+    height: 75px;
+    display: block;
+    position: absolute;
+    z-index: -1;
+    margin-top: -50px;
+    margin-left: 100px;
 }

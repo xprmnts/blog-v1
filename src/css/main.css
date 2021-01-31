@@ -18,7 +18,7 @@ body {
     font-family: 'Avenir-Light', 'Helvetica Neue', 'Helvetica', 'Arial',
         'Lucida Grande', 'sans-serif';
     padding: 0;
-    background: #fff;
+    background: rgb(236, 236, 230);
     color: #181a1b;
     margin: 0;
     text-rendering: optimizeLegibility;
@@ -40,12 +40,14 @@ h2 {
     font-weight: 100;
 }
 h3 {
+    font-family: 'Garamond';
     font-weight: 300;
     margin: 30px 0 20px 0;
+    font-size: 1.6em;
 }
 h4 {
     margin: 30px 0 20px 0;
-    font-family: 'Georgia';
+    font-family: 'Garamond';
 }
 
 p {
@@ -54,14 +56,11 @@ p {
 }
 
 .label {
-    color: #134db6;
+    color: #831515;
     font-size: 0.75em;
     letter-spacing: 0.2em;
     text-transform: uppercase;
-    font-family: 'avenir-heavy';
-}
-h3 {
-    font-size: 1.8em;
+    font-family: 'Avenir-heavy';
 }
 h4 {
     font-size: 1.4em;
@@ -69,7 +68,13 @@ h4 {
 a:hover,
 h3 a:hover,
 h4 a:hover {
-    color: #134db6;
+    color: #831515;
+}
+
+ul {
+    list-style-type: none;
+    margin: 20px 0 64px 0;
+    padding: 0;
 }
 
 .column {
@@ -93,6 +98,39 @@ h4 a:hover {
     box-sizing: border-box;
 }
 
+.social ul {
+    margin-left: -10px;
+}
+.social li {
+    display: inline-block;
+}
+.social li:hover {
+    opacity: 1;
+    cursor: pointer;
+    cursor: hand;
+}
+
+.icons {
+    display: block;
+    height: 25px;
+    width: 25px;
+    padding: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.icons a {
+    color: #181a1b;
+    font-size: 25px;
+}
+
+.icons a:hover {
+    color: #831515;
+}
+
+.footer {
+    margin-top: -60px;
+}
 @media screen and (max-width: 768px) {
     .column .left {
         width: 100%;
