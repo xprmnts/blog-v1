@@ -2,7 +2,8 @@
     "1":{
         "title" : "Mastermind: CLI",
         "description" : "A command line version of the classic Mastermind code breaking game using Node JS.",
-        "comingSoon" : "true"
+        "comingSoon" : "true",
+        "url" : "https://github.com/xprmnts/mastermind-cli"
     },
     "2":{
         "title" : "Mastermind: GUI",

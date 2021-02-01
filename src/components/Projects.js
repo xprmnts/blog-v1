@@ -10,12 +10,10 @@ const Projects = () => {
                 key={projects[key].title}
                 className={key % 2 === 0 ? 'right' : 'left'}
             >
-                <a href='/'>
+                <a href={projects[key].url ? projects[key].url : '/'}>
                     <h4>
                         <div
-                            className={
-                                projects[key].comingSoon ? 'coming-soon' : ''
-                            }
+                            className={!projects[key].url ? 'coming-soon' : ''}
                         >
                             {projects[key].title}
                         </div>
