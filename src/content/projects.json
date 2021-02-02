@@ -1,23 +1,28 @@
 {
     "1":{
-        "title" : "Mastermind: CLI",
+        "title" : "Mastermind I: CLI",
         "description" : "A command line version of the classic Mastermind code breaking game using Node JS.",
         "comingSoon" : "true",
         "url" : "https://github.com/xprmnts/mastermind-cli"
     },
     "2":{
-        "title" : "Mastermind: GUI",
+        "title" : "Mastermind II: GUI",
         "description" : "Mastermind with an all new GUI using React.",
         "comingSoon" : "true"
     },
     "3":{
-        "title" : "Mastermind: Evolved",
+        "title" : "Mastermind III: Evolved",
         "description" : "Create an account, store your game history and compare your skills against our leaderboard. Game built using Node + React + GraphQL.",
         "comingSoon" : "true"
     },
     "4":{
-        "title" : "Mastermind: Mobile",
-        "description" : "Take Mastermind where ever you go on your Android or iPhone! Game builds on Evolved with React Native, Typescript.",
+        "title" : "Mastermind IV: Mobile",
+        "description" : "Take Mastermind whereever you go on your Android or iPhone! Game builds on Evolved with React Native.",
+        "comingSoon" : "true"
+    },
+    "5":{
+        "title" : "Mastermind V: Battlefield",
+        "description" : "Compete against your friends online in real-time and see if you are truly the best code-breaker.",
         "comingSoon" : "true"
     }
 }
