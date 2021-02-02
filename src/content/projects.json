@@ -11,17 +11,22 @@
         "comingSoon" : "true"
     },
     "3":{
-        "title" : "Mastermind III: Evolved",
-        "description" : "Create an account, store your game history and compare your skills against our leaderboard. Game built using Node + React + GraphQL.",
+        "title" : "Mastermind III: API",
+        "description" : "Build your own version of the Mastermind Game using my API!",
         "comingSoon" : "true"
     },
     "4":{
-        "title" : "Mastermind IV: Mobile",
-        "description" : "Take Mastermind whereever you go on your Android or iPhone! Game builds on Evolved with React Native.",
+        "title" : "Mastermind IV: Evolved",
+        "description" : "Create an account, store your game history and compare your skills against our leaderboard. Game built using Node + React + GraphQL.",
         "comingSoon" : "true"
     },
     "5":{
-        "title" : "Mastermind V: Battlefield",
+        "title" : "Mastermind V: Mobile",
+        "description" : "Take Mastermind wherever you go on your Android or iPhone! Game builds on Evolved with React Native.",
+        "comingSoon" : "true"
+    },
+    "6":{
+        "title" : "Mastermind VI: Battlefield",
         "description" : "Compete against your friends online in real-time and see if you are truly the best code-breaker.",
         "comingSoon" : "true"
     }
