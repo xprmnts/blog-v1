@@ -13,7 +13,11 @@ const Projects = () => {
                 <a href={projects[key].url ? projects[key].url : '/'}>
                     <h4>
                         <div
-                            className={!projects[key].url ? 'coming-soon' : ''}
+                            className={
+                                projects[key].comingSoon === 'true'
+                                    ? 'coming-soon'
+                                    : ''
+                            }
                         >
                             {projects[key].title}
                         </div>
