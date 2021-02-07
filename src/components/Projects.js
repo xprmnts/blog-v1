@@ -10,7 +10,11 @@ const Projects = () => {
                 key={projects[key].title}
                 className={key % 2 === 0 ? 'right' : 'left'}
             >
-                <a href={projects[key].url ? projects[key].url : '/'}>
+                <a
+                    href={projects[key].url ? projects[key].url : '/'}
+                    target='_blank'
+                    rel='noopener noreferrer'
+                >
                     <h4>
                         <div
                             className={
